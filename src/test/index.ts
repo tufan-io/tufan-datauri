@@ -27,8 +27,8 @@ test.before(async (t) => {
 test(`compare crlf & lf`, async (t) => {
   const { data, dir, fpath } = t.context as any;
   t.log(dir);
-  const crlf = await dataUri(fpath.crlf);
-  const lf = await dataUri(fpath.lf);
+  const crlf = dataUri(fpath.crlf);
+  const lf = dataUri(fpath.lf);
   // tslint:disable: tsr-detect-non-literal-fs-filename
   const raw_crlf = eol.crlf(await fs.readFile(fpath.crlf, "utf8"));
   const raw_lf = eol.lf(await fs.readFile(fpath.lf, "utf8"));

@@ -1,1 +1,1 @@
-export declare function dataUri(fpath: string): Promise<string>;
+export declare function dataUri(fpath: string): any;
