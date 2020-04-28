@@ -1,3 +1,8 @@
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/tufan-io/tufan-datauri/compare/0.1.0...0.1.1) (2020-04-28)
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2020-04-28)
 
