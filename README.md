@@ -1,6 +1,6 @@
 # @tufan/datauri
 
-[![action-ci](https://github.com/tufan-io/simple-ci/workflows/action-ci/badge.svg)](https://github.com/tufan-io/tufan-datauri/actions)
+[![action-ci](https://github.com/tufan-io/tufan-datauri/workflows/action-ci/badge.svg)](https://github.com/tufan-io/tufan-datauri/actions)
 
 OS independent way to convert file contents to a datauri.
 Used to convert icon files to datauris that can be embedded within metadata
