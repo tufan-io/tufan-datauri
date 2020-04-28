@@ -1,1 +1,1 @@
-export declare function dataUri(fpath: string): any;
+export declare function dataUri(fpath: string): string;

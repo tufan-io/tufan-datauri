@@ -13,7 +13,7 @@ import * as fs from "fs-extra";
  *
  * @param fpath
  */
-export function dataUri(fpath: string) {
+export function dataUri(fpath: string): string {
   // this is a little hacky and inefficient,
   // but serves the purpose for now.
   // tslint:disable-next-line: tsr-detect-non-literal-fs-filename
