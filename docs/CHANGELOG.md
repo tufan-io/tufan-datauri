@@ -1,3 +1,13 @@
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/tufan-io/tufan-datauri/compare/0.1.1...0.1.2) (2020-05-25)
+
+
+### Bug Fixes
+
+* moving  -> . windows compatibility ([4648257](https://github.com/tufan-io/tufan-datauri/commit/4648257))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/tufan-io/tufan-datauri/compare/0.1.0...0.1.1) (2020-04-28)
 
