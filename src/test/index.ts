@@ -1,6 +1,6 @@
 
 import test from "ava";
-import * as Datauri from "datauri";
+import Datauri from "datauri";
 import * as eol from "eol";
 import * as fs from "fs-extra";
 import * as path from "path";

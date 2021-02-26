@@ -130,12 +130,12 @@
     }
   },
   "dependencies": {
-    "datauri": "^2.0.0",
+    "datauri": "^3.0.0",
     "eol": "^0.9.1",
-    "fs-extra": "^9.0.0"
+    "fs-extra": "^9.1.0"
   },
   "devDependencies": {
-    "@tufan-io/simple-ci": "^0.3.3"
+    "@tufan-io/simple-ci": "^0.4.3"
   },
   "engines": {
     "node": ">=13.0.0"

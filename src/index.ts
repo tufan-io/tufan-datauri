@@ -1,4 +1,4 @@
-import * as Datauri from "datauri";
+import DatauriParser from "datauri/parser";
 import * as eol from "eol";
 import * as fs from "fs-extra";
 
@@ -18,7 +18,7 @@ export function dataUri(fpath: string): string {
   // but serves the purpose for now.
   // tslint:disable-next-line: tsr-detect-non-literal-fs-filename
   const raw = eol.lf(fs.readFileSync(fpath, "utf8"));
-  const datauri = new Datauri();
+  const datauri = new DatauriParser();
   const { content } = datauri.format(fpath, raw);
   return content;
 }
