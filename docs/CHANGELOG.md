@@ -1,3 +1,12 @@
+## [0.1.7](https://github.com/tufan-io/tufan-datauri/compare/0.1.6...0.1.7) (2021-04-02)
+
+
+### Bug Fixes
+
+* move tslint/tsfmt -> eslint/prettier ([9c6a433](https://github.com/tufan-io/tufan-datauri/commit/9c6a433f1d106406dc88811c4c4b68fe0c734e9f))
+
+
+
 ## [0.1.6](https://github.com/tufan-io/tufan-datauri/compare/0.1.5...0.1.6) (2021-03-30)
 
 
