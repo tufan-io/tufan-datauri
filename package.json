@@ -41,12 +41,12 @@
     "dep-check": "dependency-check . --no-dev",
     "dependency-upgrade": "run-batch",
     "fetch-all-tags": "git fetch --all --tags",
-    "format": "tsfmt -r",
+    "format": "eslint src/**/*.ts --fix",
     "git-add-all": "git add .",
     "git-push": "git push",
     "git-push-tags": "git push origin --tags",
     "git-upgrade-commit": "git diff-index --quiet HEAD || git commit -m \"chore: updating dependencies\"",
-    "lint": "tslint -c tslint.json --project ./tsconfig.json --format stylish",
+    "lint": "eslint src/**/*.ts",
     "no-circular-deps": "madge --circular dist/index.js",
     "no-mods": "git-mods",
     "npm-check_": "npm-check -y",
@@ -135,7 +135,7 @@
     "fs-extra": "^9.1.0"
   },
   "devDependencies": {
-    "@tufan-io/simple-ci": "^0.4.7"
+    "@tufan-io/simple-ci": "^0.4.13"
   },
   "engines": {
     "node": ">=13.0.0"

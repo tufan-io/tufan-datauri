@@ -1,6 +1,4 @@
-
 import test from "ava";
-import Datauri from "datauri";
 import * as eol from "eol";
 import * as fs from "fs-extra";
 import * as path from "path";
@@ -25,11 +23,11 @@ test.before(async (t) => {
  * but have to trust it works as designed.
  */
 test(`compare crlf & lf`, async (t) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const { data, dir, fpath } = t.context as any;
   t.log(dir);
   const crlf = dataUri(fpath.crlf);
   const lf = dataUri(fpath.lf);
-  // tslint:disable: tsr-detect-non-literal-fs-filename
   const raw_crlf = eol.crlf(await fs.readFile(fpath.crlf, "utf8"));
   const raw_lf = eol.lf(await fs.readFile(fpath.lf, "utf8"));
   t.is(crlf, lf);
