@@ -40,7 +40,6 @@ const fs = __importStar(require("fs-extra"));
 function dataUri(fpath) {
     // this is a little hacky and inefficient,
     // but serves the purpose for now.
-    // tslint:disable-next-line: tsr-detect-non-literal-fs-filename
     const raw = eol.lf(fs.readFileSync(fpath, "utf8"));
     const datauri = new parser_1.default();
     const { content } = datauri.format(fpath, raw);
