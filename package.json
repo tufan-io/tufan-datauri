@@ -54,7 +54,7 @@
     "pkg-ok": "pkg-ok",
     "pre-commit-hook": "run-batch",
     "pre-push-hook": "run-batch",
-    "prepare": "which npm-check git-cz",
+    "prepare": "node-which npm-check git-cz",
     "prepublishOnly": "run-batch",
     "postpublish": "run-batch",
     "qt": "run-batch",
@@ -135,7 +135,7 @@
     "fs-extra": "^9.1.0"
   },
   "devDependencies": {
-    "@tufan-io/simple-ci": "^0.4.3"
+    "@tufan-io/simple-ci": "^0.4.17"
   },
   "engines": {
     "node": ">=13.0.0"
