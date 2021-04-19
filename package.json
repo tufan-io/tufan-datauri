@@ -135,7 +135,7 @@
     "fs-extra": "^9.1.0"
   },
   "devDependencies": {
-    "@tufan-io/simple-ci": "^0.4.17"
+    "@tufan-io/simple-ci": "^0.4.19"
   },
   "engines": {
     "node": ">=13.0.0"
@@ -146,7 +146,6 @@
   "run-batch": {
     "build": [
       "format",
-      "lint",
       "clean",
       "compile",
       "test",
@@ -160,7 +159,7 @@
       "test-no-cover"
     ],
     "checks": [
-      "lint",
+      "format",
       "check-coverage",
       "dep-check",
       "no-circular-deps",
