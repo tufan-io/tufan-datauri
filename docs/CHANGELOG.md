@@ -1,3 +1,7 @@
+## [0.1.9](https://github.com/tufan-io/tufan-datauri/compare/0.1.8...0.1.9) (2021-04-19)
+
+
+
 ## [0.1.8](https://github.com/tufan-io/tufan-datauri/compare/0.1.7...0.1.8) (2021-04-06)
 
 
